@@ -1,0 +1,42 @@
+.header {
+  width: 85%;
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  border-radius: 17px;
+  align-items: center;
+  background-color: white;
+  justify-content: space-between;
+}
+
+.title {
+  display: flex;
+  font-size: 30px;
+  margin-left: 30px;
+  font-weight: bold;
+  align-items: center;
+  font-family: "Robic-SemiBold", sans-serif;
+}
+
+.leave-btn {
+  display: flex;
+  align-items: center;
+}
+
+.dark-mode {
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+}
+
+.moon {
+  width: 32px;
+  height: 32px;
+}
+
+.section-two {
+  gap: 1vh;
+  display: flex;
+  margin-right: 30px;
+  align-items: center;
+}

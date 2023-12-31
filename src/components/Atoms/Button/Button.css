@@ -1,15 +1,16 @@
 .btn-style {
   border: 0;
-  height: 47px;
-  width: 128px;
-  font-size: 18px;
+  outline: 0;
+  width: 110px;
+  height: 36px;
+  display: flex;
+  font-size: 17px;
+  cursor: pointer;
   color: #5f42ff;
   font-weight: 600;
-  border-radius: 29px;
-  background-color: #e0e0ff;
-
-  &:focus {
-    box-shadow: none;
-    outline: none !important;
-  }
+  line-height: 28px;
+  border-radius: 20px;
+  align-items: center;
+  justify-content: center;
+  background-color: #dddeff;
 }

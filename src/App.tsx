@@ -1,11 +1,17 @@
 import "./App.css";
-import Button from "./components/Atoms/Button/Button";
+import Header from "./components/Organizms/Header/Header";
 
 function App() {
   return (
-    <>
-      <Button title="Leave" />
-    </>
+    <div
+      style={{
+        width: "100vw",
+        height: "100vh",
+        background: "rgb(244, 246, 255)",
+      }}
+    >
+      <Header />
+    </div>
   );
 }
 
